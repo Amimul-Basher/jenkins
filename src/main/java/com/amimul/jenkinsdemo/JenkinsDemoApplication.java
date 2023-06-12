@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsDemoApplication {
 	public static final Logger logger = LoggerFactory.getLogger(JenkinsDemoApplication.class);
 
-	
+
 	public void init(){
 		logger.info("The application is getting started");
 	}
