@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("git"){
       steps{
-        echo "Checking out............"
+        echo "Checking out from dev branch............"
       }
     }
     stage("test"){
@@ -18,7 +18,7 @@ pipeline{
     }
     stage("deploy"){
       steps{
-        echo "Deployment logics should be added here........."
+        echo "Deployment logics should be added here for dev........."
       }
     }
   }
