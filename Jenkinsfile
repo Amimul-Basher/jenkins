@@ -10,6 +10,7 @@ pipeline{
       when{
         expression{
           BRANCH_NAME == "dev"
+        }
       }
       steps{
         bat "mvn test"
