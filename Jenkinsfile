@@ -27,7 +27,7 @@ pipeline{
     stage("deploy"){
       steps{
         echo "Deployment logics should be added here........."
-        echo "Credential saved in Jenkins ${CREDENTIALS_USR and ${CREDENTIALS_PWD}}"
+        echo "Credential saved in Jenkins ${CREDENTIALS_USR and ${CREDENTIALS_PSW}}"
       }
     }
   }
