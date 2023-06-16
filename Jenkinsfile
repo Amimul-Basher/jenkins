@@ -1,5 +1,8 @@
 pipeline{
   agent any
+  environment{
+    CREDENTIALS = credentials("practice_credintial_id")
+  }
   stages{
     stage("git"){
       steps{
@@ -24,6 +27,7 @@ pipeline{
     stage("deploy"){
       steps{
         echo "Deployment logics should be added here........."
+        echo "Credential saved in Jenkins ${CREDENTIALS}"
       }
     }
   }
