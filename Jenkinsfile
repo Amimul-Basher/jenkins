@@ -14,10 +14,10 @@ pipeline{
     stage("parameter test"){
       steps{
         echo "hello ${param.PERSON}"
-        echo "Biographt ${params.BIOGRAPHY}"
+        echo "Biography ${params.BIOGRAPHY}"
         echo "Toggle ${params.TOGGLE}"
         echo "Choice ${params.CHOICE}"
-        echo "Password ${PASSWORD}"
+        echo "Password ${params.PASSWORD}"
       }
     }
     stage("test"){
