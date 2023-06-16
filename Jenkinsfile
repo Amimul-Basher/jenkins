@@ -14,7 +14,7 @@ pipeline{
     stage("parameter test"){
       steps{
         echo "hello ${param.PERSON}"
-        echo "Biographt ${params.BIOGRAPHY"
+        echo "Biographt ${params.BIOGRAPHY}"
         echo "Toggle ${params.TOGGLE}"
         echo "Choice ${params.CHOICE}"
         echo "Password ${PASSWORD}"
